@@ -1,0 +1,142 @@
+* {padding: 0; margin: 0}
+
+.container {position: relative; width: 1200px; margin: auto; margin-top: 15px;}
+html {font-family: sans-serif;}
+
+menu nav {position: relative; height: 40px; width: 1200px; line-height: 40px; margin-bottom: 25px; margin-top: 5px;}
+menu nav ul li {list-style: none;}
+menu nav ul li a {margin-right: 15px; 
+	text-decoration: none; 
+	padding-left: 15px;
+	color: black;}
+
+menu .kiri {width: 600px; float: left;}
+menu .kiri nav ul li a {font-size: 28px;}
+
+menu .kanan {width: 600px; float: right;}
+menu .kanan nav ul li {float: left; list-style: none; margin-right: 5px; background: white;}
+menu .kanan nav ul li a {font-size: 16px; position: relative;}
+menu .kanan nav ul ul {display: none; position: absolute; width: 200px;}
+menu .kanan nav ul ul li {float: none; position: relative; text-align: left; right: 70%; top: 10px;}
+menu .kanan nav ul ul li a {color: dark grey; font-size: 14px;}
+menu .kanan ul li:hover ul {display: block;}
+menu .kanan img {width: 25px; float: left; margin: 5px 0 0 10px;}
+
+
+
+article {padding: 50px; background: #E3F4F4; overflow: hidden;}
+article img {float: left; width: 330px; height: 200px; margin: 0 0 15px 0;}
+article p {font-size:14px; margin: 0 20px; color: dim grey; text-align: justify;}
+article .kiri {width: 750px; float: left;}
+article .kanan1 {width: 300px; float: left; background: white; overflow: hidden; padding: 25px;}
+
+
+article .kiri a {font-size: 16x; text-decoration: none; list-style: none; color: black;}
+article .kiri .kiriatas .kiri{width: 330px; height: 600px; float: left; margin: 0 30px 20px 0; background: white;}
+article .kiri .kiriatas .kiri .link {background: black; border-radius: 3px;
+	padding: 10px 25px; position: absolute; list-style: none; 
+	left: 6%;}
+article .kiri .kiriatas .kiri .link a {text-decoration: none; list-style: none; color: white;}
+article .kiri .kiriatas .kiri .link:hover {cursor: pointer}
+
+
+article .kiri .kiriatas .kanan{width: 330px; height: 600px; float: left; margin: 0 30px 20px 0; background: white;}
+article .kiri .kiriatas .kanan .link {background: black; border-radius: 3px;
+	padding: 10px 25px; position: absolute; list-style: none; 
+	left: 37%;}
+article .kiri .kiriatas .kanan .link a {text-decoration: none; list-style: none; color: white;}
+article .kiri .kiriatas .kanan .link:hover {cursor: pointer}
+
+
+article .kiri .kiribawah .kiri{width: 330px; height: 600px; float: left; margin: 0 30px 20px 0; background: white;}
+article .kiri .kiribawah .kiri .link {background: black; border-radius: 3px;
+	padding: 10px 25px; position: absolute; list-style: none; 
+	left: 6%;}
+article .kiri .kiribawah .kiri .link a {text-decoration: none; list-style: none; color: white;}
+article .kiri .kiribawah .kiri .link:hover {cursor: pointer}
+
+
+article .kiri .kiribawah .kanan{width: 330px; height: 600px; float: left; margin: 0 30px 20px 0; background: white;}
+article .kiri .kiribawah .kanan .link {background: black; border-radius: 3px;
+	padding: 10px 25px; position: absolute; list-style: none; 
+	left: 37%;}
+article .kiri .kiribawah .kanan .link a {text-decoration: none; list-style: none; color: white;}
+article .kiri .kiribawah .kanan .link:hover {cursor: pointer}
+
+
+
+article .kanan1 h1 {font-size: 20px;}
+article .kanan1 .atas1 {width: 300px; margin-right: 30px;}
+article .kanan1 .atas1 .first {height: 70px; border-bottom: 1px solid grey;}
+article .kanan1 .atas1 .first img {width:50px; height:50px; float: left; margin: 10px 10px;}
+article .kanan1 .atas1 .first a {font-size: 16px; text-decoration: none; list-style: none; color: black;}
+
+article .kanan1 .atas1 .second {height: 70px; border-bottom: 1px solid grey;}
+article .kanan1 .atas1 .second img {width:50px; height:50px; float: left; margin: 10px 10px;}
+article .kanan1 .atas1 .second a {font-size: 16px; text-decoration: none; list-style: none; color: black;}
+
+article .kanan1 .atas1 .third {height: 70px; border-bottom: 1px solid grey;}
+article .kanan1 .atas1 .third img {width:50px; height:50px; float: left; margin: 10px 10px;}
+article .kanan1 .atas1 .third a {font-size: 16px; text-decoration: none; list-style: none; color: black;}
+
+article .kanan1 .atas1 .fourth {height: 70px; border-bottom: 1px solid grey;}
+article .kanan1 .atas1 .fourth img {width:50px; height:50px; float: left; margin: 10px 10px;}
+article .kanan1 .atas1 .fourth a {font-size: 16px; text-decoration: none; list-style: none; color: black;}
+
+
+article .kanan1 .atas2 {width: 300px; margin-top: 30px; margin-bottom: 30px;}
+article .kanan1 .atas2 .form input {line-height: 40px; width: 180px;}
+article .kanan1 .atas2 .form .inputText {border-radius: 3px; font-size: 14px; margin-right: 5px;}
+
+article .kanan1 .atas2 .form .button {background: black; border-radius: 3px;
+	padding: 10px 10px; list-style: none; font-size: 15px; 
+	color: white; text-decoration: none; margin-right: 15px; position: absolute;}
+article .kanan1 .atas2 .form input.inputText {padding: 0 0 0 10px;}
+article .kanan1 .atas2 .form .button:hover {cursor: pointer}
+
+article .kanan1 .bawah1 {width: 300px; float: left; margin-right: 30px; margin-bottom: 30px;}
+article .kanan1 .bawah1 img {width:50px; height:50px; margin-right: 20px;}
+article .kanan1 .bawah1 img:hover {opacity: 0.5; filter:alpha(opacity=50);}
+
+article .kanan1 .bawah2 {width: 300px; float: left; margin-right: 30px;}
+article .kanan1 .bawah2 img {width: 100%; height: 100%;}
+
+
+footer {padding: 100px; background: #FFEEF4; overflow: hidden; position: relative;}
+footer .tigakolom .kiri {width: 300px; float: left; margin-right: 30px;}
+footer .tigakolom .kiri img {width:40px; margin-right: 20px;}
+footer .tigakolom .kiri img:hover {width: 45px;}
+footer .tigakolom .kiri h3 {font-size: 24px; border-bottom: 3px solid grey;}
+footer .tigakolom .kiri p {font-size: 14px;}
+
+
+footer .tigakolom .tengah {width: 300px; float: left; margin-right: 30px;}
+footer .tigakolom .tengah h3 {font-size: 24px; border-bottom: 3px solid grey;}
+footer .tigakolom .tengah .first {height: 90px;}
+footer .tigakolom .tengah .first img {width:55px; float: left; margin: 10px 10px;}
+footer .tigakolom .tengah .first a {font-size: 16px; text-decoration: none; list-style: none; color: black;}
+
+footer .tigakolom .tengah .second {height: 90px;}
+footer .tigakolom .tengah .second img {width:55px; float: left; margin: 10px 10px;}
+footer .tigakolom .tengah .second a {font-size: 16px; text-decoration: none; list-style: none; color: black;}
+
+footer .tigakolom .tengah .third {height: 90px;}
+footer .tigakolom .tengah .third img {width:55px; float: left; margin: 10px 10px;}
+footer .tigakolom .tengah .third a {font-size: 16x; text-decoration: none; list-style: none; color: black;}
+
+
+footer .tigakolom .kanan {width: 300px; float: left; overflow: hidden;}	
+footer .tigakolom .kanan h3 {font-size: 24px; border-bottom: 3px solid grey; margin-bottom: 10px;}
+
+footer .kanan .form input {line-height: 40px; width: 190px;}
+footer .kanan .form .inputText {border-radius: 5px; font-size: 11px; margin-right: 5px;}
+
+footer .kanan .form .button {height: 40px; width: 87px; position: absolute;}
+footer .kanan .form p {margin-top: 30px; font-size: 14px; text-align: justify;}
+footer .kanan .form input.inputText {padding: 0 0 0 10px;}
+footer .kanan .form .button:hover {cursor: pointer}
+
+
+footer .bawah {position: absolute; width: 1200px;}
+footer .bawah {text-align: center; line-height: 40px; height: 40px; bottom: 0px; left: -0px;
+	font-size: 15px; border-top: 1px solid grey;}

@@ -1,0 +1,89 @@
+* {padding: 0; margin: 0}
+
+.container {position: relative; width: 1200px; margin: auto; margin-top: 15px;}
+html {font-family: sans-serif;}
+
+menu nav {position: relative; height: 40px; width: 1200px; line-height: 40px; margin-bottom: 25px; margin-top: 5px;}
+menu nav ul li {list-style: none;}
+menu nav ul li a {margin-right: 15px; 
+	text-decoration: none; 
+	padding-left: 15px;
+	color: black;}
+
+menu .kiri {width: 600px; float: left;}
+menu .kiri nav ul li a {font-size: 28px;}
+
+menu .kanan {width: 600px; float: right;}
+menu .kanan nav ul li {float: left; list-style: none; margin-right: 5px; background: white;}
+menu .kanan nav ul li a {font-size: 16px; position: relative;}
+menu .kanan nav ul ul {display: none; position: absolute; width: 200px;}
+menu .kanan nav ul ul li {float: none; position: relative; text-align: left; right: 70%; top: 10px;}
+menu .kanan nav ul ul li a {color: dark grey; font-size: 14px;}
+menu .kanan ul li:hover ul {display: block;}
+menu .kanan img {width: 25px; float: left; margin: 5px 0 0 10px;}
+
+
+article {padding: 50px; background: #E3F4F4; overflow: hidden;}
+article h1 {font-size: 30px; text-align: center;}
+article p {font-size: 16px; text-align: center; color: grey;}
+article .gambar {display: block; margin-left: 42%; margin-right: auto; width: 50%; margin-bottom: 20px;}
+article .gambar img {width:30px; margin-right: 20px; img-align: center;}
+form {background: white; padding: 25px; width: 600px; margin: auto;
+	border-radius: 7px;}
+
+
+article {padding: 50px 100px; background: #E3F4F4; overflow: hidden;}
+article form {padding: 30px; background: white; overflow: hidden;}
+
+article form .form1 input {margin: 5px 0; line-height: 30px; width: 590px;}
+article form .form1 .inputText {padding: 0 0 0 10px;}
+
+article form .form1 textarea {margin: 5px 0; line-height: 30px; width: 590px;}
+article form .form1 textarea {padding: 0 0 0 10px;}
+
+article form button {background: black; border-radius: 3px;
+	padding: 8px 15px; list-style: none; font-size: 12px; 
+	color: white; text-decoration: none; margin-right: 15px;}
+article form button:hover {cursor: pointer}
+
+
+
+
+footer {padding: 100px; background: #FFEEF4; overflow: hidden; position: relative;}
+footer .tigakolom .kiri {width: 300px; float: left; margin-right: 30px;}
+footer .tigakolom .kiri img {width:40px; margin-right: 20px;}
+footer .tigakolom .kiri img:hover {width: 45px;}
+footer .tigakolom .kiri h3 {font-size: 24px; border-bottom: 3px solid grey;}
+footer .tigakolom .kiri p {font-size: 14px;}
+
+
+footer .tigakolom .tengah {width: 300px; float: left; margin-right: 30px;}
+footer .tigakolom .tengah h3 {font-size: 24px; border-bottom: 3px solid grey;}
+footer .tigakolom .tengah .first {height: 90px;}
+footer .tigakolom .tengah .first img {width:55px; float: left; margin: 10px 10px;}
+footer .tigakolom .tengah .first a {font-size: 16px; text-decoration: none; list-style: none; color: black;}
+
+footer .tigakolom .tengah .second {height: 90px;}
+footer .tigakolom .tengah .second img {width:55px; float: left; margin: 10px 10px;}
+footer .tigakolom .tengah .second a {font-size: 16px; text-decoration: none; list-style: none; color: black;}
+
+footer .tigakolom .tengah .third {height: 90px;}
+footer .tigakolom .tengah .third img {width:55px; float: left; margin: 10px 10px;}
+footer .tigakolom .tengah .third a {font-size: 16x; text-decoration: none; list-style: none; color: black;}
+
+
+footer .tigakolom .kanan {width: 300px; float: left; overflow: hidden;}	
+footer .tigakolom .kanan h3 {font-size: 24px; border-bottom: 3px solid grey; margin-bottom: 10px;}
+
+footer .kanan .form input {line-height: 40px; width: 190px;}
+footer .kanan .form .inputText {border-radius: 5px; font-size: 11px; margin-right: 5px;}
+
+footer .kanan .form .button {height: 40px; width: 87px; position: absolute;}
+footer .kanan .form p {margin-top: 30px; font-size: 14px; text-align: justify;}
+footer .kanan .form input.inputText {padding: 0 0 0 10px;}
+footer .kanan .form .button:hover {cursor: pointer}
+
+
+footer .bawah {position: absolute; width: 1200px;}
+footer .bawah {text-align: center; line-height: 40px; height: 40px; bottom: 0px; left: -0px;
+	font-size: 15px; border-top: 1px solid grey;}
